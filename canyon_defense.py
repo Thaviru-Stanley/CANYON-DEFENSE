@@ -196,7 +196,7 @@ def start_scan():
 
     results_text += f"Total Vulnerabilities Found: {len(all_issues)}\n"
 
-    results_text += f"Risk Score: {score}\n\n"
+    results_text += f"Security Score: {score}\n\n"
 
     if not all_issues:
 
