@@ -44,7 +44,7 @@ def scan_tree(tree, file_path):
                             tree,
                             file_path,
                             rules_metadata[rule_id],
-                            tainted_variables  # 🔥 NEW PARAMETER
+                            tainted_variables
                         )
                     )
 
