@@ -27,7 +27,7 @@ def evaluate():
     TP = len(vulnerable_issues)
     FP = len(secure_issues)
 
-    # We intentionally placed 7 vulnerabilities
+    # intentionally placed 7 vulnerabilities for testing
     EXPECTED_VULNERABILITIES = 7
 
     FN = EXPECTED_VULNERABILITIES - TP
