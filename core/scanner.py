@@ -11,7 +11,7 @@ def scan_tree(tree, file_path):
 
     issues = []
 
-    # 🔥 NEW: Get tainted variables
+    # Get tainted variables
     tainted_variables = get_tainted_variables(tree)
 
     # Load rule metadata
